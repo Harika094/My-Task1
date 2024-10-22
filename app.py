@@ -12,7 +12,7 @@ df = pd.json_normalize(data)
 
 # Initialize the app
 app = Dash(__name__)
-server =app.server
+server=app.server
 
 # App layout
 app.layout = html.Div([
