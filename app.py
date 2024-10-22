@@ -5,7 +5,7 @@ import plotly.express as px
 import json
 
 # Load and incorporate the JSON data
-with open('Graphs/Tabledata.json') as f:
+with open('Tabledata.json') as f:
     data = json.load(f)
 
 df = pd.json_normalize(data)
